@@ -1,0 +1,3 @@
+weather stack api_key:"d221b92044ed8034b530df9586b1e503"
+
+position stack api_key:"8b9d021f5d62e1903140a81ad75d3c29"
