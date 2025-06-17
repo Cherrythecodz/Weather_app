@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/weather', async (req, res) => {
-  const API_KEY = '';
+  const API_KEY = 'd221b92044ed8034b530df9586b1e503';
   const { lat, lon } = req.query;
 
   if (!lat || !lon) {

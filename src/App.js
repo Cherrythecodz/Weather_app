@@ -142,7 +142,7 @@ const App = () => {
 
   // Fetch coordinates for a city using PositionStack API
   const fetchCoordinates = async (city) => {
-    const API_KEY = ''; // Replace with your actual PositionStack API key
+    const API_KEY = '8b9d021f5d62e1903140a81ad75d3c29'; // Replace with your actual PositionStack API key
     const GEOCODING_URL = `http://api.positionstack.com/v1/forward?access_key=${API_KEY}&query=${encodeURIComponent(city)}&limit=1`;
     try {
       const response = await fetch(GEOCODING_URL);
@@ -176,7 +176,7 @@ const App = () => {
 
     try {
       setLoading(true);
-      const API_KEY = ''; // Replace with your actual Weatherstack API key
+      const API_KEY = 'd221b92044ed8034b530df9586b1e503'; // Replace with your actual Weatherstack API key
       const WEATHER_URL = `http://api.weatherstack.com/current?access_key=${API_KEY}&query=${lat},${lon}&units=m&forecast_days=3&hourly=1`;
       const response = await fetch(WEATHER_URL);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
