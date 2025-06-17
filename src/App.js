@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './styles.css';
 import SunRays from './assets/sun-rays.png';
 import DashboardBgSunny from './assets/dashboard_bg_sunny.png';
@@ -682,5 +683,9 @@ const App = () => {
     </div>
   );
 };
+
+<BrowserRouter basename="/Weather_app">
+  <App />
+</BrowserRouter>
 
 export default App;
