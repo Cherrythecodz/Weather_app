@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Cherrythecodz.github.io/Weather_app",
+  "homepage": "https://cherrythecodz.github.io/Weather_app",
   "name": "weather_app",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +26,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
